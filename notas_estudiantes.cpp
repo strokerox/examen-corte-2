@@ -57,9 +57,9 @@ void mostrar_boletin_calificaciones() {
 }
 
 int main() {
-    cargarNominaEstudiantes();
-    cargarNotasEstudiantes();
-    calcularPromedioNotas();
-    mostrarBoletinCalificaciones();
+    cargar_nomina_estudiantes();
+    cargar_notas_estudiantes();
+    calcular_promedio_notas();
+    mostrar_boletin_calificaciones();
     return 0;
 }
